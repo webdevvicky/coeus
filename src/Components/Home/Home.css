@@ -1,0 +1,30 @@
+/* Home.css */
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.bg-cont{
+    height: 85vh;
+    overflow: hidden;
+}  
+.bg-hero{
+    background-image: url("/images/bg-home2.jpg");
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+  }
+  .bg-hero p{
+    font-size: 18px;
+  }
+  .card-shadow{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1)
+}
+.linkdiv{
+    background-color: rgba(251, 251, 251, 0.15);
+}

@@ -1,0 +1,21 @@
+.list-custom {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove default padding */
+  }
+  
+  .list-custom > li {
+    margin-bottom: 15px; /* Add margin between list items */
+    color: #333; /* Change text color */
+    font-size: 18px; /* Adjust font size */
+    position: relative; /* Position relative for ::before pseudo-element */
+    padding-left: 30px; /* Adjust padding to create space for the custom arrow */
+  }
+  
+  .list-custom > li::before {
+    content: "✓"; /* Use any custom arrow character, image, or icon here */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold; /* Optionally, make the custom arrow bold */
+  }
+  

@@ -1,0 +1,25 @@
+.product-card{
+    max-height: 250px;
+    transition: transform 0.2s ease-in-out;
+}
+  
+.product-card:hover {
+    /* Scale the card slightly when hovered */
+    transform: scale(1.05);
+  }
+
+.product-img{
+    width: 100%;
+    height: 100%;
+}
+.product-link{
+    cursor: pointer;
+}
+
+
+/* details page */
+
+.detail-img{
+    width:100%
+}
+  

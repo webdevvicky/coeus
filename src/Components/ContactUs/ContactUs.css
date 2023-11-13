@@ -1,0 +1,38 @@
+
+.form-floating {
+    position: relative;
+    margin-bottom: 1rem;
+   color: #6c757d;
+    
+  }
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0; 
+    padding: 0.375rem 0.75rem;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff; 
+    box-shadow: none; 
+  }
+  
+  .form-control:focus + label {
+    transform: translateY(-1.25rem); 
+    font-size: 0.9rem; 
+    color: #007bff; 
+  }
+
+  /* address side */
+
+  .address-ul li{
+    list-style-type: none;
+    margin-left: 40px;
+  }
+
+  .bg-contactus{
+    background-color: #103F6D;
+  }
+  
+  
+  
