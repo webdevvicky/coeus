@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./ContactUs.css";
 import SocialIcons from "./SocialIcons";
 import GoogleMap from "./GoogleMap";

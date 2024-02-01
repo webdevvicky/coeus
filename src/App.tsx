@@ -14,21 +14,23 @@ import ContactUs from "./Components/ContactUs/ContactUs";
 const App = () => {
   return (
     <div>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/aboutus" element={<Aboutus />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/solutions" element={<Solution />} />
-        <Route path="/fibaro">
-          <Route index element={<Product />} />
-          <Route path="/fibaro/detail/:id" element={<Detail />} />
-        </Route>
-        <Route path="/others" element={<OtherProduct />} />
-        <Route path="/contactus" element={<ContactUs />} />
-        <Route path="/*" element={<Notfound />} />
-      </Routes>
-      <Footer />
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutus" element={<Aboutus />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/solutions" element={<Solution />} />
+          <Route path="/fibaro">
+            <Route index element={<Product />} />
+            <Route path="/fibaro/detail/:id" element={<Detail />} />
+          </Route>
+          <Route path="/others" element={<OtherProduct />} />
+          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/*" element={<Notfound />} />
+        </Routes>
+        <Footer />
+      </div>
     </div>
   );
 };
